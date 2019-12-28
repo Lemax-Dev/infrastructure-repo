@@ -4,7 +4,7 @@ resource "aws_instance" "production" {
   vpc_security_group_ids  = ["sg-0008be08e1a39844f"]
   key_name  = "lemaxdevkey"  
   tags = {
-    Name  = "production"
+    Name  = "production-server-01"
   }
   root_block_device {
     volume_size  = "15"
