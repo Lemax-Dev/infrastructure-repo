@@ -12,6 +12,6 @@ resource "aws_instance" "fa-bookingteam-dev-01" {
     Name  = "bookingteam-dev-01"
   }
   root_block_device {
-    volume_size  = "15"
+    volume_size  = "10"
   }
 }
