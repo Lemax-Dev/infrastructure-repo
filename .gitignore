@@ -1,2 +1,2 @@
 # ignore the large exe files
-.terraform/plugins/windows_amd64/terraform-provider-aws_v2.43.0_x4.exe
+.terraform/plugins/linux_amd64/terraform-provider-aws_v2.43.0_x4
