@@ -10,7 +10,7 @@ resource "aws_instance" "fa-bookingteam-dev-01" {
   key_name   				= "lemaxdevkey"
   
   tags = {
-    Name 					= "fa-bookingteam-dev-01"
+    Name 					= "fa-bookingteam-dev-02"
   }
   root_block_device {
     volume_size          	= "15"
