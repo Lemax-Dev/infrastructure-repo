@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "fa-bookingteam-dev-01" {
-  ami           			= "ami-08947d0de9ebe8e98"
+  ami           			= "ami-0a3bb8b3fcce36acc"
   instance_type 			= "t2.micro"
   vpc_security_group_ids 	= ["sg-0008be08e1a39844f"]
   key_name   				= "lemaxdevkey"
@@ -18,7 +18,7 @@ resource "aws_instance" "fa-bookingteam-dev-01" {
 }
 
 resource "aws_instance" "fa-bookingteam-dev-02" {
-  ami           			= "ami-08947d0de9ebe8e98"
+  ami           			= "ami-0a3bb8b3fcce36acc"
   instance_type 			= "t2.micro"
   vpc_security_group_ids 	= ["sg-0008be08e1a39844f"]
   key_name   				= "lemaxdevkey"
