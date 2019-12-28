@@ -16,7 +16,7 @@ resource "aws_instance" "bookingteam-dev-01" {
   }
 }
 
-resource "aws_instance" "bookingteam-dev--02" {
+resource "aws_instance" "bookingteam-dev-02" {
   ami  = "ami-0ee2cc04e6a530d94"
   instance_type  = "t2.micro"
   vpc_security_group_ids  = ["sg-0008be08e1a39844f"]
