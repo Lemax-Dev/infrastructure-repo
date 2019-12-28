@@ -9,7 +9,7 @@ resource "aws_instance" "bookingteam-dev-01" {
   vpc_security_group_ids  = ["sg-0008be08e1a39844f"]
   key_name  = "lemaxdevkey"  
   tags = {
-    Name  = "bookingteam-dev--01"
+    Name  = "bookingteam-dev-01"
   }
   root_block_device {
     volume_size  = "15"
