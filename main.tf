@@ -5,7 +5,8 @@ provider "aws" {
 resource "aws_subnet" "production_subnet" {
   vpc_id     = "vpc-9c7fedf8"
   cidr_block = "172.31.80.0/20"
-  assign_ipv6_address_on_creation = true
+  assign_ipv6_address_on_creation = "true"
+  map_public_ip_on_launch = "true"
 
   tags = {
     Name = "production_subnet"
