@@ -1,8 +1,9 @@
 resource "aws_instance" "uat" {
-  ami  = "ami-0ee2cc04e6a530d94"
   instance_type  = "t2.micro"
   vpc_security_group_ids  = ["sg-0008be08e1a39844f"]
   key_name  = "lemaxdevkey"  
+  ami  = "ami-0fd9f6305e5904533"
+  subnet_id = "subnet-015bab2e22a25f13d"
   tags = {
     Name  = "uat-server-01"
   }
