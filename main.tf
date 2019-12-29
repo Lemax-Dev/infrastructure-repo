@@ -40,7 +40,7 @@ resource "aws_subnet" "skywards_subnet" {
 }
 resource "aws_subnet" "tooling_subnet" {
   vpc_id     = "vpc-9c7fedf8"
-  cidr_block = "172.31.128.0/20"
+  cidr_block = "172.31.144.0/20"
   map_public_ip_on_launch = "true"
 
   tags = {
