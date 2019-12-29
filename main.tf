@@ -7,7 +7,7 @@ resource "aws_subnet" "production_subnet" {
   cidr_block = "172.31.1.0/20"
 
   tags = {
-    Name = "Main"
+    Name = "production_subnet"
   }
 }
 resource "aws_subnet" "uat_subnet" {
@@ -15,7 +15,7 @@ resource "aws_subnet" "uat_subnet" {
   cidr_block = "172.31.2.0/20"
 
   tags = {
-    Name = "Main"
+    Name = "uat_subnet"
   }
 }
 resource "aws_subnet" "bookingteam_subnet" {
@@ -23,7 +23,7 @@ resource "aws_subnet" "bookingteam_subnet" {
   cidr_block = "172.31.3.0/20"
 
   tags = {
-    Name = "Main"
+    Name = "bookingteam_subnet"
   }
 }
 resource "aws_subnet" "skywards_subnet" {
@@ -31,6 +31,6 @@ resource "aws_subnet" "skywards_subnet" {
   cidr_block = "172.31.4.0/20"
 
   tags = {
-    Name = "Main"
+    Name = "skywards_subnet"
   }
 }
